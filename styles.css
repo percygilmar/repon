@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease; /* Agregamos una transición para suavizar el cambio de color */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .image-container {
+  background-image: url('css.jpg'); /* Reemplaza 'css.jpg' con la URL de tu imagen personal */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+} 
+  .content {
+    text-align: justify;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .video-container {
+    float: right; /* Coloca el video en el lado derecho */
+    width: 50%; /* Ancho del video */
+  }
+  
+ /* Media queries para cambiar el color de fondo responsivamente */
+@media screen and (max-width: 768px) {
+    body {
+      background-color: #FFD700; /* Amarillo dorado */
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1200px) {
+    body {
+      background-color: #00BFFF; /* Azul cielo */
+    }
+  }
+  
+  @media screen and (min-width: 1201px) {
+    body {
+      background-color: #FF6347; /* Rojo coral */
+    }
+  }
+  
+  
